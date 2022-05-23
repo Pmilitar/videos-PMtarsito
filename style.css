@@ -1,0 +1,15 @@
+.contenedor{
+    border: 5px solid rgb(112, 136, 208);
+    background-color:rgb(146, 97, 97);
+    display:grid;
+   grid-template-columns: 1if 3if;
+   grid-auto-rows: 450px;
+    place-content: center;
+    gap: 20px;
+}
+
+.title {
+    color: rgba(246, 61, 61, 0.876);
+    font-size: 2rem;
+    text-align: center;
+}
